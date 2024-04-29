@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a love for creating beautiful and functional websites. With years of
+                experience in HTML, CSS, and JavaScript, I specialize in crafting responsive and user-friendly web
+                solutions.</p>
+            <p>When I'm not coding, you can find me exploring the great outdoors, experimenting with new recipes in the
+                kitchen, or immersing myself in a good book.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Description of Project 1 goes here...</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Description of Project 2 goes here...</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>Description of Project 3 goes here...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email at <a
+                    href="mailto:youremail@example.com">youremail@example.com</a> or connect with me on social media:
+            </p>
+            <ul class="social-links">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Personal Website</p>
+    </footer>
+
+</body>
+
+</html>
